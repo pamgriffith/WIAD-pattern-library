@@ -1,40 +1,16 @@
 /*------------------------------------*\
     $BUTTONS
 \*------------------------------------*/
-.btn {
-	display: inline-block;
-	background: $gray-dark;
+a.button {
 	color: $white;
-	line-height: 1;
 	font-weight: bold;
-	padding: $pad;
-	border: 0;
-	text-align: center;
+	text-decoration: none;
+	background-color: $popout-color;
+	padding: $space-half $space;
+	border-radius: .2em;
+	display: inline-block;
+	vertical-align: middle;
 	
 	&:hover, &:focus {
-		background: $gray;
-		color: $white;
 	}
-
-	&.disabled {
-		background: $gray-light-2;
-		color: $gray;
-	}
-}
-
-.btn-small {
-	padding: $pad-half;
-}
-
-.btn-large {
-	padding: $pad-half;
-	text-transform: uppercase;
-	background: $gray;
-	font-size: 1.4rem;
-	font-weight: normal;
-}
-
-
-.text-btn {
-	font-style: italic;
 }

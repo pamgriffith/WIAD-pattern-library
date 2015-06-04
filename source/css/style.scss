@@ -73,9 +73,6 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 @import "scss/base/text";
 @import "scss/base/lists";
 @import "scss/base/media";
-@import "scss/base/forms";
-@import "scss/base/tables";
-@import "scss/base/animation";
 
 
 
@@ -106,12 +103,10 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 /*------------------------------------*\
     $COMPONENTS
 \*------------------------------------*/
-@import "scss/objects/icons";
 @import "scss/objects/buttons";
 @import "scss/objects/blocks";
 @import "scss/objects/lists";
 @import "scss/objects/tooltip";
-@import "scss/objects/accordion";
 @import "scss/objects/tabs";
 @import "scss/objects/sections";
 @import "scss/objects/article";

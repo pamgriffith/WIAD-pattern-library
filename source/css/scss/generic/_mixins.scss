@@ -14,10 +14,30 @@
 }
 
 /* Rem Unit font sizes with relative fallback http:/seesparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback  
-	Usage: @include font-size(1, large);
+	Usage: @include rem-font-size(1, large);
 */
-@mixin font-size( $decimal-size, $keyword: null ) {
+@mixin rem-font-size( $decimal-size, $keyword: null ) {
   @if $keyword{ font-size: $keyword; }
-  @else { font-size: $decimal-size * $base-font-multiplier * 16px;}
+  @else { font-size: $decimal-size * $font-size;}
   font-size: $decimal-size * 1rem;
+}
+
+/* Rem Unit margin sizes with relative fallback
+	Usage: @include rem-margin(1, 0, 1.5, 0);
+*/
+@mixin rem-margin( $top, $right, $bottom, $left ) {
+	margin: $top*$font-size $right*$font-size $bottom*$font-size $left*$font-size;
+	margin: $top*1rem $right*1rem $bottom*1rem $left*1rem;
+}
+
+/* Media queries
+    Usage:
+    @include media-query($bp-large) {
+		font-size: 1.5em;
+    }
+*/
+@mixin media-query( $size ) {
+	@media screen and (min-width: $size) {
+		@content;
+	}
 }

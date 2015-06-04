@@ -3,21 +3,7 @@
 \*------------------------------------*/
 
 /* Flexible Media */
-img, video, object {
+img, video, object, iframe {
 	max-width: 100%;
-	height: auto;
-}
-
-iframe {
-	margin-bottom: $space;
-}
-
-figure {
-	margin-bottom: $space;
-	img {
-		margin-bottom: $space-half;
-	}
-}
-figcaption {
-	font-style: italic;
+    border: none;
 }

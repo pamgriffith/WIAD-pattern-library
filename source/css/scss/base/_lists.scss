@@ -1,19 +1,82 @@
-ol, ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+ul, ol, li {
+    margin: 0 0 $space 0;
 }
 
-/* Definition Lists */
+ol {
+    margin-top: $space;
+    padding: 0;
+    list-style: none;
+    counter-reset: ol-counter;
+}
+ol>li:before {
+    display: block;
+    float: left;
+    margin-left: -2.6em;
+    content: counter(ol-counter);
+    counter-increment: ol-counter;
+    color: white;
+    font-weight: bold;
+    background-color: $popout-color;
+    text-align: center;
+    width: 1.6em;
+    height: 1.6em;
+    line-height: 1.6em;
+    border-radius: 1.6em;
+}
+ol>li {
+    padding-left: 2.6em;
+}
+
+ul {
+    margin-top: $space;
+    list-style: disc;
+    padding-left: 1.2em;
+}
+
+li ol, li ul {
+    margin-top: $space-half;
+}
+li li {
+    margin-bottom: $space-half;
+}
+
 dl {
-	overflow: hidden;
-	margin: 0 0 $space;
+    margin-top: $space;
+    @include media-query($bp-small) {
+        display:table;
+    }
 }
-
 dt {
-	font-weight: bold;
+    color: $popout-color;
+    font-weight: bold;
+    @include media-query($bp-small) {
+        display: table-cell;
+        text-align: right;
+        width: 7em;
+        padding-right: 1em;
+    }
+}
+dd {
+    padding-bottom: $space;
+    margin-left: 0;
+    @include media-query($bp-small) {
+        display: table-cell;
+    }
 }
 
-dd {
-	margin-left: 0;
+.unstyled-list {
+    list-style: none;
+    padding: 0;
+    li {
+        margin-bottom: $space-half;
+    }
+}
+
+.inline-list {
+    list-style: none;
+    padding: 0;
+    li {
+        display: inline-block;
+        margin-right: $space;
+    }
 }

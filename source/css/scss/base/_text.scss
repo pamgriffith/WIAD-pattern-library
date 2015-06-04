@@ -5,22 +5,20 @@ p {
 
 /* Blockquote */
 blockquote {
-    font-style:italic;
-    border-left: 1px solid $gray;
-    color: $gray;
-	padding-left: $pad;
-	margin-bottom: $space;
+    font-size: 1.25em;
+    font-style: italic;
+    color: $text-color-light;
+    line-height: 1.3;
+    margin: 0 $space;
+    padding: 0;
+    position: relative;
 }
-
-/* Horizontal Rule */ 
-hr {
-	border: 0;
-    height: 2px;
-    background: $gray-light-2;
-    margin: $space-double 0;
-}
-
-abbr {
-    border-bottom: 1px dotted $gray;
-    cursor: help;
+blockquote:before {
+    content: '“';
+    font-size: 7em;
+    color: $decoration-color;
+    position: absolute;
+    left: -.3em;
+    top: -.3em;
+    z-index: -1;
 }
