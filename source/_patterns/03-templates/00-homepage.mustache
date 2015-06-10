@@ -1,40 +1,33 @@
-<div class="page" id="page">
-	{{> organisms-header }}
-	<div role="main">
-		{{# emergency }}
-			{{> molecules-alert:error }}
-		{{/ emergency }}
-		{{# hero }}
-			{{> molecules-block-hero }}
-		{{/ hero}}
+{{# hero }}
+{{> molecules-block-hero }}
+{{/ hero}}
 
-		<div class="g g-3up">
-			{{# touts}}
-				<div class="gi">
-					{{> molecules-block-inset }}
-				</div>
-			{{/ touts}}
-		</div><!--end 3up-->
-
-		<hr />
-
-		<div class="l-two-col">
-			<div class="l-main">
-				<section class="section latest-posts">
-					<h2 class="section-title">Latest Posts</h2>
-					<ul class="post-list">
-						{{# latest-posts }}
-							<li>{{> molecules-media-block }}</li>
-						{{/ latest-posts }}
-					</ul>
-					<a href="#" class="text-btn">View more posts</a>
-				</section>
-			</div><!--end .l-main-->
-
-			<div class="l-sidebar">
-				{{> organisms-recent-tweets }}
-			</div><!--end .l-sidebar-->
-		</div><!--end .l-two-col-->
-	</div><!--End role=main-->
-	{{> organisms-footer }}
+<div class="main">
+    <div class="content-with-sidebar">
+    	{{# article1}}
+    		{{> organisms-article-body }}
+    	{{/ article1}}
+    	{{# photo-block-1}}
+    		{{> molecules-block-photo }}
+    	{{/ photo-block-1}}
+    	{{# article2}}
+    		{{> organisms-article-body }}
+    	{{/ article2}}
+    	{{# photo-block-2}}
+    		{{> molecules-block-photo }}
+    	{{/ photo-block-2}}
+    	{{# article3}}
+    		{{> organisms-article-body }}
+    	{{/ article3}}
+    	{{# article4}}
+    		{{> organisms-article-body }}
+    	{{/ article4}}
+    </div>
+    <aside class="sidebar">
+    	{{# blockquote}}
+    		{{> molecules-blockquote-with-citation }}
+    	{{/ blockquote}}
+    </aside>
 </div>
+
+{{> organisms-footer }}

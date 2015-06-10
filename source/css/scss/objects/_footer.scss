@@ -1,39 +1,47 @@
 /*------------------------------------*\
     $FOOTER
 \*------------------------------------*/
-.footer {
-	clear: both;
-	overflow: hidden;
-	background: $gray-dark-2;
-	color: $white;
-	line-height: 1.2;
+footer {
+    font-size: $font-size-small;
+    position: relative;
+    top: -33px;
+    top: calc(-2rem - 1px);
+    border-top: $dark-border;
+    padding-top: $space;
+    text-align: center;
+    max-width: $max-width;
+    margin: 0 auto;
 
-	a {
-		color: $gray-light;
-	}
-}
+    @include media-query($bp-large) {
+    	clear: both;
 
-//Footer Nav
-.nav-footer {
-	margin: (-$pad) (-$pad) $space;
-
-	li {
-		border-bottom: 1px solid $gray-dark;
-
-		@media all and (min-width: $bp-med) {
-			border: 0;
-			float: left;
-		}
-	}
-
-	a {
-		display: block;
-		padding: $pad;
-	}
-}
-
-.copyright {
-	@media all and (min-width: $bp-med) {
-		float: right;
-	}
+        ul {
+            margin: 0;
+        }
+        
+        .footer-nav {
+            width: 40%;
+            float: left;
+            text-align: left;
+        }
+        
+        .copyright {
+            width: 40%;
+            float: left;
+            text-align: right;
+        }
+        
+        .contact {
+            width: 20%;
+            float: left;
+            text-align: center;
+        }
+        
+        &:after {
+            content: ' ';
+            display: block;
+            clear: both;
+            line-height: 0;
+        }
+    }
 }

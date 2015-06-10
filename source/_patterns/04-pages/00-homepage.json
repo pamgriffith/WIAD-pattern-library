@@ -1,135 +1,73 @@
 {
-	"title" : "Home Page",
-	"bodyClass": "home",
-	"emergency" : false,
-	"hero" : [
-		{
-			"img": {
-				"landscape-16x9": {
-					"src": "../../images/sample/landscape-16x9-mountains.jpg",
-					"alt": "Mountains"	
-				}
-			},
-			"headline" : {
-				"medium" : "Top 10 mountain ranges for hiking"
-			}
+	"title" : "World IA Day 2016 Call for Cities",
+	"article1": {
+		"id": "about-ia-day",
+		"title": "About World Information Architecture Day",
+		"body": "<p class='lede'>World IA Day is a one-day conference aimed at bringing the Information Architecture community together.</p><p>On February 20th, 2016, we’ll be celebrating the fifth annual World IA Day in cities across the globe. It's a fun day to learn from world-class IA minds, network with people passionate about IA, and showcase your new IA-related ideas. It's also a fantastic opportunity to host talks with content tailored specifically to your local community and in your local language.</p><p>Sound good? We hope your city will be a host to World IA Day this year! If you have strong leadership skills and are excited to tailor World IA Day for your community, big or small, submit your application by June 20, 2015.</p><p class='cta'><a href='https://docs.google.com/a/davidpetersimon.com/forms/d/1vvBQBC4U8jqBjCqWz13k6hB_nEfBRkyU_9F0MbaANII/viewform' class='button'>Submit an application for your city</a></p>"
+	},
+	"article2": {
+		"id": "running-ia-day",
+		"title": "The basics of running World IA Day",
+		"body": "<p>We believe local leadership and autonomy are key to successful, culturally relevant events.</p><p>Each year, organizers run theiferently, but generally we see successful event timelines run something like this...</p><ol><li><strong>Build a local team.</strong> You start building a team by connecting with leaders in your community who are interested in filling out the Call for Cities proposal with you. The Information Architecture Institute reviews all submissions and notifies the organizers whether or not they are accepted. Once accepted, you can grow your team and plan your event with the support of the Information Architecture Institute.</li><li><strong>Connect with global.</strong> The Information Architecture Institute global team will jump on a call with you to check in and make sure you have the support you need. We will let you know what other local leaders are doing across the globe and help you foresee any issues that can arise. We’ll also provide guidelines on when and how things could be done to help you if you’re new to event planning.</li><li>Plan event logistics. We recommend a planning schedule as follows:<dl><div class='di'><dt>July</dt><dd>Recruit your volunteer team</dd></div><div class='di'><dt>August</dt><dd>Identify sponsors and speakers from your community</dd></div><div class='di'><dt>September</dt><dd>Determine venue & audio/visual needs</dd></div><div class='di'><dt>October</dt><dd>Publish final details on the World IA Day website</dd></div><div class='di'><dt>November</dt><dd>Market the event to your community</dd></div><div class='di'><dt>December</dt><dd>Design the day-of experience for your event</dd></div><div class='di'><dt>January</dt><dd>Open registration and finalize day-of details</dd></div></dl></li><li><strong>Host the event!</strong> On February 20th, 2016, you’ll host your very own World IA Day - the format and content is up to you. The day can be filled with talks, roundtable chats, workshops, or something we haven’t even thought of yet. The only thing that we ask is that you keep your event accessible to all in your community and ours. The Information Architecture Institute global team will help promote your tweets, live streams, and video uploads as your event takes place.</li></ol><p>At each step, we will provide advice, templates, toolkits, and any other planning tools you request to make sure that you're well equipped to run your event.</p>"
+	},
+	"article3": {
+		"id": "expectations",
+		"title": "Conditions for running World IA Day",
+		"body": "<p>The Information Architecture Institute has a few conditions cities should abide by to make sure that all World IA Day events are connected and successful.<p><ol><li>Accessible for any attendee with a desire to participate</li><li>Commitment to pursuing local sponsors to cover event costs</li><li>Promotion of World IA Day as an Information Architecture Institute event</li><li>Promotion of global sponsors before and during the event</li><li>The rights for Information Architecture Institute to publish your event content</li><li>Commitment to providing the following post-event: <ul><li>Post-event survey</li><li>Attendee numbers & data</li><li>Itemized budget</li><li>Any overage dollars donated to Information Architecture Institute</li></ul></li><p>As always, World IA Day is committed to being an open and welcoming environment. We strongly promote the inclusion of all people, regardless of gender, race, economic standing, or social background. By signing up to host World IA Day, you agree to maintain and support this standard.<p class='cta'><a href='https://docs.google.com/a/davidpetersimon.com/forms/d/1vvBQBC4U8jqBjCqWz13k6hB_nEfBRkyU_9F0MbaANII/viewform' class='button'>Submit now!</a></p></p>"	
+	},
+	"article4": {
+		"id": "iai",
+		"title": "World IA Day is brought to you by:",
+		"body": "<p><a href='http://iainstitute.org'><img alt='Information Architecture Institute' src='../../images/iai-logo.png'></a></p><p>World IA Day is completely volunteer-run, with operational support from the Information Architecture Institute.</p><p>If you have any questions or concerns and would like to get in contact with the World IA Day global team, please feel free to reach out to us at our official e-mail at <a href='mailto:info@worldiaday.org'>info@worldiaday.org</a>. You can also directly reach out to this year’s Global Executive Producer <a href='mailto:hello@davidpetersimon.com'>David Peter Simon</a> or Events Director <a href='mailto:ecstrato@gmail.com'>Erin Stratos</a>.</p>"
+	},
+	"photo-block-1": {
+		"image1": {
+			"alt": "World IA Day 2012 Molmo",
+			"src": "../../photos/WIAD12-Malmo-FredrikOhlin2.jpg",
+			"src-full": "../../photos/WIAD12-Malmo-FredrikOhlin2.full.jpg",
+			"creator": "Fredrik Ohlin",
+			"creator-link": "https://www.flickr.com/photos/fohlin/"
+		},
+		"image2": {
+			"alt": "World IA Day 2013 Tokyo",
+			"src": "../../photos/WIAD13-Tokyo-AtsushiHASEGAWA11.jpg",
+			"src-full": "../../photos/WIAD13-Tokyo-AtsushiHASEGAWA11.full.jpg",
+			"creator": "Atsushi HASEGAWA",
+			"creator-link": "https://www.flickr.com/photos/ahaseg/"
+		},
+		"image3": {
+			"alt": "World IA Day 2014 Washington D.C.",
+			"src": "../../photos/WIAD14-DC-WIADDC-2.jpg",
+			"src-full": "../../photos/WIAD14-DC-WIADDC-2.full.jpg",
+			"creator": "WIAD DC",
+			"creator-link": "https://www.flickr.com/photos/dwilliamhood/"
 		}
-	],
-	"touts" : [
-		{
-			"img": {
-				"landscape-4x3": {
-					"src": "../../images/sample/tout-4x3-climber.jpg",
-					"alt": "Climber"	
-				}
-			},
-			"headline" : {
-				"short" : "Extreme climbing tips"
-			}
+	},
+	"photo-block-2": {
+		"image1": {
+			"alt": "World IA Day 2015 Ann Arbor",
+			"src": "../../photos/WIAD15-AnnArbor-DWilliamHood5.jpg",
+			"src-full": "../../photos/WIAD15-AnnArbor-DWilliamHood5.full.jpg",
+			"creator": "D William Hood",
+			"creator-link": "https://www.flickr.com/photos/dwilliamhood/"
 		},
-		{
-			"img": {
-				"landscape-4x3": {
-					"src": "../../images/sample/tout-4x3-stream.jpg",
-					"alt": "Stream hiking"	
-				}
-			},
-			"headline" : {
-				"short" : "Stream hiking"
-			}
+		"image2": {
+			"alt": "World IA Day 2015 Ann Arbor",
+			"src": "../../photos/WIAD15-AnnArbor-DWilliamHood10.jpg",
+			"src-full": "../../photos/WIAD15-AnnArbor-DWilliamHood10.full.jpg",
+			"creator": "D William Hood",
+			"creator-link": "https://www.flickr.com/photos/dwilliamhood/"
 		},
-		{
-			"img": {
-				"landscape-4x3": {
-					"src": "../../images/sample/tout-4x3-climbers.jpg",
-					"alt": "Explore hiking trails"	
-				}
-			},
-			"headline" : {
-				"short" : "Explore hiking trails"
-			}
+		"image3": {
+			"alt": "World IA Day 2013 Tokyo",
+			"src": "../../photos/WIAD13-Tokyo-AtsushiHASEGAWA13.jpg",
+			"src-full": "../../photos/WIAD13-Tokyo-AtsushiHASEGAWA13.full.jpg",
+			"creator": "Atsushi HASEGAWA",
+			"creator-link": "https://www.flickr.com/photos/ahaseg/"
 		}
-	],
-	"latest-posts" : [
-		{
-			"img": {
-				"square": {
-					"src": "../../images/sample/thumb-square-river.jpg",
-					"alt": "Post Thumbnail"	
-				}
-			},
-			"headline" : {
-				"short" : "Navigate the Allegheny River"
-			},
-			"exerpt" : {
-				"medium" : "The Allegheny River is a principal tributary of the Ohio River; it is located in the Eastern United States. The Allegheny River joins with the Monongahela River to form the Ohio River at the Point of Point State Park in Downtown Pittsburgh, Pennsylvania."
-			}
-		},
-		{
-			"img": {
-				"square": {
-					"src": "../../images/sample/thumb-square-ivy.jpg",
-					"alt": "Ivy"	
-				}
-			},
-			"headline" : {
-				"short" : "How to detect and avoid poison ivy"
-			},
-			"exerpt" : {
-				"medium" : "Toxicodendron radicans, commonly known as poison ivy is a poisonous North American plant that is well known for its production of urushiol"
-			}
-		},
-		{
-			"img": {
-				"square": {
-					"src": "../../images/sample/thumb-square-yosemite.jpg",
-					"alt": "Yosemite"	
-				}
-			},
-			"headline" : {
-				"short" : "Top 10 hiking mountains"
-			},
-			"exerpt" : {
-				"medium" : "Yosemite National Park is a United States National Park spanning eastern portions of Tuolumne, Mariposa and Madera counties in the central eastern portion of the U.S. state of California."
-			}
-		},
-		{
-			"img": {
-				"square": {
-					"src": "../../images/sample/thumb-square-fire.jpg",
-					"alt": "Fire"	
-				}
-			},
-			"headline" : {
-				"short" : "How to build a campfire"
-			},
-			"exerpt" : {
-				"medium" : "A campfire is a fire lit at a campsite, to serve the following functions: light, warmth, a beacon, an insect and/or apex predator deterrent, to cook, and for a psychological sense of security. "
-			}
-		},
-		{
-			"img": {
-				"square": {
-					"src": "../../images/sample/thumb-square-gear.jpg",
-					"alt": "Camping Gear"	
-				}
-			},
-			"headline" : {
-				"short" : "Pick the right camping gear"
-			},
-			"exerpt" : {
-				"medium" : "The equipment used in camping varies with the particular type of camping. For instance, in survival camping the equipment consists of small items which have the purpose of helping the camper in providing food, heat and safety."
-			}
-		}
-	],
-	"inset-blocks" : [
-		{
-			"headline" : "This is the headline for the inset block"
-		}
-	],
-	"latest-block" : [
-		{
-			"headline" : "This is the headline for the latest block"
-		}
-	]
+	},
+	"blockquote": {
+		"quotation": "The [organizing] experience couldn't have been better. I was very concerned that I wouldn't be doing something correctly, but the amount of support from the IA Institute was unbelievable. Any questions or concerns I had were immediately answered, and any help I needed was given quickly. The day went unbelievably well, and we are happy to be answering the Call for Cities again in 2016 in the hopes of hosting World IA Day again!",
+		"source": "Carrianne Tuckley<br/>Kent, Ohio, 2015"
+	}
 }

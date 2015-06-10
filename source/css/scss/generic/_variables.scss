@@ -18,17 +18,21 @@ $warning : #fff664;
 $information : #000db5;
 
 $white : #fff;
-$heading-color: #00AEEF;
-$link-color: #00AEEF;
+$heading-color: #000000;
+$link-color: #333333;
 $popout-color: #FF0099;
 $text-color: #333333;
 $text-color-light: #888888;
 $decoration-color: #DDDDDD;
 
+$dark-border: 1px solid #999;
+$light-border: 1px solid #ccc;
+
 
 //Typography
 $font: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
 $font-size: 16px;
+$font-size-small: .75em;
 
 $primary-heading-size: 2.25;
 $secondary-heading-size: 1.5;
@@ -49,6 +53,7 @@ $sidebar-width: 30%;
 $space : 1em;
 $space-half : $space/2;
 $space-double : $space*2;
+$space-triple : $space*3;
 
 $space-and-half : $space*1.5;
 $space-quad : $space*4;

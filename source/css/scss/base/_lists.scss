@@ -16,7 +16,7 @@ ol>li:before {
     counter-increment: ol-counter;
     color: white;
     font-weight: bold;
-    background-color: $popout-color;
+    background-color: $text-color;
     text-align: center;
     width: 1.6em;
     height: 1.6em;
@@ -47,7 +47,6 @@ dl {
     }
 }
 dt {
-    color: $popout-color;
     font-weight: bold;
     @include media-query($bp-small) {
         display: table-cell;
@@ -78,5 +77,8 @@ dd {
     li {
         display: inline-block;
         margin-right: $space;
+        &:last-child {
+            margin-right: 0;
+        }
     }
 }

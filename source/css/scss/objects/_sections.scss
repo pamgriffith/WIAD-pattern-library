@@ -1,7 +1,5 @@
-.section {
-	margin: 0 0 $space;
-}
-
-.section-title {
-	margin-bottom: $space-half;
+section {
+    margin: $space-double 0;
+    padding-bottom: $space-double;
+    border-bottom: $light-border;
 }
