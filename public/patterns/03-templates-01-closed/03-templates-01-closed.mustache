@@ -1,0 +1,34 @@
+{{# hero }}
+{{&gt; molecules-block-hero-centered }}
+{{/ hero}}
+
+&lt;div class=&quot;main&quot;&gt;
+	{{# article1}}
+		{{&gt; organisms-article-body }}
+	{{/ article1}}
+
+	{{# photo-block}}
+		{{&gt; molecules-block-photo }}
+	{{/ photo-block}}
+
+    &lt;div class=&quot;col2&quot;&gt;
+    	{{# article2}}
+    		{{&gt; organisms-article-body }}
+    	{{/ article2}}
+    	{{# article3}}
+    		{{&gt; organisms-article-body }}
+    	{{/ article3}}
+    &lt;/div&gt;
+
+	{{# article4}}
+		&lt;section id=&quot;{{id}}&quot;&gt;
+            &lt;h2&gt;{{title}}&lt;/h2&gt;
+            {{{body1}}}
+            {{&gt; molecules-block-team }}
+            {{{body2}}}
+        &lt;/section&gt;
+	{{/ article4}}
+
+&lt;/div&gt;
+
+{{&gt; organisms-footer }}

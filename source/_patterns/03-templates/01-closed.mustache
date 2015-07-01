@@ -1,0 +1,34 @@
+{{# hero }}
+{{> molecules-block-hero-centered }}
+{{/ hero}}
+
+<div class="main">
+	{{# article1}}
+		{{> organisms-article-body }}
+	{{/ article1}}
+
+	{{# photo-block}}
+		{{> molecules-block-photo }}
+	{{/ photo-block}}
+
+    <div class="col2">
+    	{{# article2}}
+    		{{> organisms-article-body }}
+    	{{/ article2}}
+    	{{# article3}}
+    		{{> organisms-article-body }}
+    	{{/ article3}}
+    </div>
+
+	{{# article4}}
+		<section id="{{id}}">
+            <h2>{{title}}</h2>
+            {{{body1}}}
+            {{> molecules-block-team }}
+            {{{body2}}}
+        </section>
+	{{/ article4}}
+
+</div>
+
+{{> organisms-footer }}

@@ -1,0 +1,46 @@
+{
+	"people": [
+		{
+			"name": "Person 1",
+			"image": "../../team/sample.png",
+			"contact": "https://twitter.com/example",
+			"role": "Adviser and Co-Founder"
+		},
+		{
+			"name": "Person 2",
+			"image": "../../team/sample.png",
+			"contact": "https://twitter.com/example",
+			"role": "Adviser and Co-Founder"
+		},
+		{
+			"name": "Person 3",
+			"image": "../../team/sample.png",
+			"contact": "https://twitter.com/example",
+			"role": "Adviser and Co-Founder"
+		},
+		{
+			"name": "Person 4",
+			"image": "../../team/sample.png",
+			"contact": "https://twitter.com/example",
+			"role": "Adviser and Co-Founder"
+		},
+		{
+			"name": "Person 5",
+			"image": "../../team/sample.png",
+			"contact": "https://twitter.com/example",
+			"role": "Adviser and Co-Founder"
+		},
+		{
+			"name": "Person 6",
+			"image": "../../team/sample.png",
+			"contact": "https://twitter.com/example",
+			"role": "Adviser and Co-Founder"
+		},
+		{
+			"name": "Person 7",
+			"image": "../../team/sample.png",
+			"contact": "https://twitter.com/example",
+			"role": "Adviser and Co-Founder"
+		}
+	]
+}

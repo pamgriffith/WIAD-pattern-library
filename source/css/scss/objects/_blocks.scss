@@ -36,9 +36,18 @@
         }
 
         .content {
-            width: 35%;
             background-color: $white;
             padding: $space $space-double;
+        }
+
+        .content.offset {
+            width: 35%;
+        }
+
+        .content.center {
+            width: 65%;
+            margin-left: auto;
+            margin-right: auto;
         }
         
         h1 {
@@ -63,11 +72,12 @@
     font-style: italic;
 
     li {
-        width: 31.624%; /* 185/585 */
+        width: 31.624%; /* 185/585, 3 col */
         margin-right: 2.564%; /* remainder, split in 2 */
         margin-bottom: 0;
         vertical-align: top;
 
+        &:nth-child(3n),
         &:last-child {
             margin-right: 0;
         }
@@ -76,5 +86,58 @@
     img {
         width: 100%;
         vertical-align: middle;
+    }
+}
+@include media-query($bp-medium) {
+    /* 6 across for full-width on wide screens */
+    .photo-list li {
+        width: 15%; /* ~140/900, 6 col */
+        margin-right: 2%; /* remainder, split in 5 */
+        &:nth-child(3n) {
+            margin-right: 2%;
+        }
+        &:nth-child(6n),
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    /* break back into rows of 3 for narrower containers */
+    .col2 .photo-list li,
+    .content-with-sidebar .photo-list li {
+        width: 31.624%; /* 185/585, 3 col */
+        margin-right: 2.564%; /* remainder, split in 2 */
+        &:nth-child(3n),
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.team-list {
+    text-align: center;
+    margin: $space-double 0;
+}
+.team-list li {
+    width: 48%; /* 2 col */
+    margin-right: 4%; /* remainder */
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: $space-double;
+}
+.team-list li:nth-child(2n),
+.team-list li:last-child {
+    margin-right: 0;
+}
+@media screen and (min-width: 600px) {
+    .team-list li {
+        width: 22%; /* 4 col */
+        margin-right: 4%; /* remainder, split in 3 */
+    }
+    .team-list li:nth-child(2n) {
+        margin-right: 4%;
+    }
+    .team-list li:nth-child(4n),
+    .team-list li:last-child {
+        margin-right: 0;
     }
 }

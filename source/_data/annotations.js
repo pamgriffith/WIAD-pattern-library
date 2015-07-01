@@ -1,34 +1,34 @@
 var comments = {
 "comments" : [
 	{
-		"el": "header[role=banner]",
-		"title" : "Masthead",
-		"comment": "The main header of the site doesn't take up too much screen real estate in order to keep the focus on the core content. It's using a linear CSS gradient instead of a background image to give greater design flexibility and reduce HTTP requests."
+		"el": "h1",
+		"title" : "Heading 1",
+		"comment": "heading level 1 becomes the size of heading level 2 in narrow contexts. This happens automatically on small screens with media queries, but narrow panels like the hero area need to do it with extra code."
 	},
 	{
-		"el": ".logo",
-		"title" : "Logo",
-		"comment": "The logo image is an SVG file, which ensures that the logo displays crisply even on high resolution displays. A PNG fallback is provided for browsers that don't support SVG images.</p><p>Further reading: <a href=\"http://bradfrostweb.com/blog/mobile/hi-res-optimization/\">Optimizing Web Experiences for High Resolution Screens</a></p>"
+		"el": "dl.long",
+		"title": "Multi-column lists",
+		"comment": "Unordered lists and definition lists can span multiple columns if the contents are short and the lists are long. List items will span 3 columns at the widest breakpoint, or drop to 2 or 1 at smaller sizes. In the half-column or column with sidebar elements there will only be 2 columns at most; if other grid sizes are added, you will need to adjust the css for multi-column lists to include them."
 	},
 	{
-		"el": "#nav",
-		"title" : "Navigation",
-		"comment": "<p>Navigation for adaptive web experiences can be tricky. Top navigations are typical on desktop sites, but mobile screen sizes don't give us the luxury of space. We're dealing with this situation by creating a simple menu anchor that toggles the main navigation on small screens. This is just one method. <a href=\"http://bagcheck.com/\">Bagcheck</a> and <a href=\"http://contentsmagazine.com/\">Contents Magazine</a> add an anchor in the header that jumps users to the navigation which is placed in the footer. This solution works well because it doesn't require any Javascript in order to work. Other methods exist too. For example, <a href=\"http://m.espn.com\">ESPN's mobile navigation</a> overlays the main content of the page.</p><p>The nav is only hidden when a certain level of javascript is supported in order to ensure that users with little/poor javascript support can still access the navigation. Once the screen size is large enough to accommodate the nav, we show the main navigation links and hide the menu anchor.<p><p>See also: <a href=\"http://bradfrostweb.com/blog/web/responsive-nav-patterns/\">Responsive Navigation Patterns</a></p>"
+		"el": ".photo-list",
+		"title": "Photo list",
+		"comment": "Shows 6 images side-by-side at full width, or rows of 3 on small screens and in half-column and column with sidebar. You may opt to put only 3 in if the block appears only in the half-column or column with sidebar so there is only one row of images. If other grid sizes are added, you will need to adjust the css for multi-column lists to include them."
 	},
 	{
-		"el": ".search-form",
-		"title" : "Search",
-		"comment": "<p>Search is an incredibly important priority, especially for mobile. It is a great idea to give users the ability to jump directly to what they are looking for without forcing them to wade through your site's navigation. Check out the <a href=\"http://burton.com\">Burton</a> and <a href=\"http://yelp.com\">Yelp</a> mobile sites for great examples of experiences that prioritize search.</p><p>We're also using the <a href=\"http://dev.w3.org/html5/markup/input.search.html\">HTML5 search input type</a>, which is great for mobile devices that can <a href=\"http://diveintohtml5.info/forms.html\">bring up the appropriate virtual keyboard</a> for many smartphones. And like the main header navigation, we're hiding the search form on small screens to save space. Clicking the search anchor toggles the form. </p>"
+		"el": ".team-list",
+		"title": "Team List",
+		"comment": "The team list can include any number of people. The last row will be centered if there are fewer than fit in the row. This block is meant to span the whole screen, there are no versions of it for narrower containers. At full width, there are 4 columns. On narrow screens there are 2."
 	},
 	{
-		"el": ".article-header h1",
-		"title" : "Article Header",
-		"comment": "<p>The article header should be no more than 140 characters. </p>"
+		"el": ".content-with-sidebar",
+		"title": "Content with Sidebar",
+		"comment": "The main content area can contain as many sections as you like. Sidebar sections should be placed inside the aside element. The sidebar will be placed below the content on small screens."
 	},
 	{
-		"el": ".block-hero",
-		"title" : "Hero",
-		"comment": "<p>The hero area highlights one major story using a large image and a captivating headline.</p>"
+		"el": ".col2",
+		"title": "2 Column",
+		"comment": "This is meant to contain only 2 sections of roughly equal length. They will be placed next to each other if the screen is wide enough, otherwise the first one will be above the second one."
 	}
 ]
 };

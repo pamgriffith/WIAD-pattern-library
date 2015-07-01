@@ -1,23 +1,46 @@
 {
-	"image1": {
-		"alt": "Image 1",
-		"src": "../../photos/sample.jpg",
-		"src-full": "../../photos/sample.full.jpg",
-		"creator": "Author Name",
-		"creator-link": "http://example.com"
-	},
-	"image2": {
-		"alt": "Image 2",
-		"src": "../../photos/sample.jpg",
-		"src-full": "../../photos/sample.full.jpg",
-		"creator": "Author Name",
-		"creator-link": "http://example.com"
-	},
-	"image3": {
-		"alt": "Image 3",
-		"src": "../../photos/sample.jpg",
-		"src-full": "../../photos/sample.full.jpg",
-		"creator": "Author Name",
-		"creator-link": "http://example.com"
-	}
+	"images": [
+		{
+			"alt": "Image 1",
+			"src": "../../photos/sample.jpg",
+			"src-full": "../../photos/sample.full.jpg",
+			"creator": "Author Name",
+			"creator-link": "http://example.com"
+		},
+		{
+			"alt": "Image 2",
+			"src": "../../photos/sample.jpg",
+			"src-full": "../../photos/sample.full.jpg",
+			"creator": "Author Name",
+			"creator-link": "http://example.com"
+		},
+		{
+			"alt": "Image 3",
+			"src": "../../photos/sample.jpg",
+			"src-full": "../../photos/sample.full.jpg",
+			"creator": "Author Name",
+			"creator-link": "http://example.com"
+		},
+		{
+			"alt": "Image 4",
+			"src": "../../photos/sample.jpg",
+			"src-full": "../../photos/sample.full.jpg",
+			"creator": "Author Name",
+			"creator-link": "http://example.com"
+		},
+		{
+			"alt": "Image 5",
+			"src": "../../photos/sample.jpg",
+			"src-full": "../../photos/sample.full.jpg",
+			"creator": "Author Name",
+			"creator-link": "http://example.com"
+		},
+		{
+			"alt": "Image 6",
+			"src": "../../photos/sample.jpg",
+			"src-full": "../../photos/sample.full.jpg",
+			"creator": "Author Name",
+			"creator-link": "http://example.com"
+		}
+	]
 }

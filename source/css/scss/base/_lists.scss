@@ -42,23 +42,27 @@ li li {
 
 dl {
     margin-top: $space;
-    @include media-query($bp-small) {
-        display:table;
-    }
 }
 dt {
     font-weight: bold;
-    @include media-query($bp-small) {
+}
+dd {
+    margin-left: 0;
+}
+dl .di {
+    padding-bottom: $space;
+}
+@media screen and (min-width: 400px) {
+    dl.inline {
+        display:table;
+    }
+    dl.inline dt {
         display: table-cell;
         text-align: right;
         width: 7em;
-        padding-right: 1em;
+        padding-right: $space;
     }
-}
-dd {
-    padding-bottom: $space;
-    margin-left: 0;
-    @include media-query($bp-small) {
+    dl.inline dd {
         display: table-cell;
     }
 }
@@ -80,5 +84,93 @@ dd {
         &:last-child {
             margin-right: 0;
         }
+    }
+}
+
+/* mult-column lists */
+ul.long {
+    list-style: none;
+    padding: 0;
+    margin-bottom: .5em;
+}
+@media screen and (min-width: 400px) {
+    dl.long .di,
+    ul.long li {
+        width: 47.5%; /* 2 col */
+        margin-right: 5%; /* remainder */
+        float: left;
+    }
+    dl.long .di:nth-child(2n),
+    ul.long li:nth-child(2n) {
+        margin-right: 0;
+    }
+    dl.long .di:nth-child(2n+1),
+    ul.long li:nth-child(2n+1) {
+        clear: left;
+    }
+    dl.long:after,
+    ul.long:after {
+        content: ' ';
+        display: block;
+        clear: both;
+        line-height: 0;
+    }
+}
+@media screen and (min-width: 800px) {
+    /* 3 columns in list if wide enough */
+    dl.long .di,
+    ul.long li {
+        width: 30%; /* 3 col */
+        margin-right: 5%; /* remainder, split in 2 */
+        float: left;
+    }
+    dl.long .di:nth-child(2n),
+    ul.long li:nth-child(2n) {
+        margin-right: 5%;
+    }
+    dl.long .di:nth-child(2n+1),
+    ul.long li:nth-child(2n+1) {
+        clear: none;
+    }
+    dl.long .di:nth-child(3n),
+    ul.long li:nth-child(3n) {
+        margin-right: 0;
+    }
+    dl.long .di:nth-child(3n+1),
+    ul.long li:nth-child(3n+1) {
+        clear: left;
+    }
+    /* 2 columns in list if narrower */
+    .col2 dl.long .di,
+    .content-with-sidebar dl.long .di,
+    .col2 ul.long li,
+    .content-with-sidebar ul.long li {
+        width: 47.5%; /* 2 col */
+        margin-right: 5%; /* remainder */
+        float: left;
+    }
+    .col2 dl.long .di:nth-child(3n),
+    .content-with-sidebar dl.long .di:nth-child(3n),
+    .col2 ul.long li:nth-child(3n),
+    .content-with-sidebar ul.long li:nth-child(3n) {
+        margin-right: 5%;
+    }
+    .col2 dl.long .di:nth-child(3n+1),
+    .content-with-sidebar dl.long .di:nth-child(3n+1),
+    .col2 ul.long li:nth-child(3n+1),
+    .content-with-sidebar ul.long li:nth-child(3n+1) {
+        clear: none;
+    }
+    .col2 dl.long .di:nth-child(2n),
+    .content-with-sidebar dl.long .di:nth-child(2n),
+    .col2 ul.long li:nth-child(2n),
+    .content-with-sidebar ul.long li:nth-child(2n) {
+        margin-right: 0;
+    }
+    .col2 dl.long .di:nth-child(2n+1),
+    .content-with-sidebar dl.long .di:nth-child(2n+1),
+    .col2 ul.long li:nth-child(2n+1),
+    .content-with-sidebar ul.long li:nth-child(2n+1) {
+        clear: left;
     }
 }

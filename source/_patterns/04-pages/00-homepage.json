@@ -8,7 +8,7 @@
 	"article2": {
 		"id": "running-ia-day",
 		"title": "The basics of running World IA Day",
-		"body": "<p>We believe local leadership and autonomy are key to successful, culturally relevant events.</p><p>Each year, organizers run theiferently, but generally we see successful event timelines run something like this...</p><ol><li><strong>Build a local team.</strong> You start building a team by connecting with leaders in your community who are interested in filling out the Call for Cities proposal with you. The Information Architecture Institute reviews all submissions and notifies the organizers whether or not they are accepted. Once accepted, you can grow your team and plan your event with the support of the Information Architecture Institute.</li><li><strong>Connect with global.</strong> The Information Architecture Institute global team will jump on a call with you to check in and make sure you have the support you need. We will let you know what other local leaders are doing across the globe and help you foresee any issues that can arise. We’ll also provide guidelines on when and how things could be done to help you if you’re new to event planning.</li><li>Plan event logistics. We recommend a planning schedule as follows:<dl><div class='di'><dt>July</dt><dd>Recruit your volunteer team</dd></div><div class='di'><dt>August</dt><dd>Identify sponsors and speakers from your community</dd></div><div class='di'><dt>September</dt><dd>Determine venue & audio/visual needs</dd></div><div class='di'><dt>October</dt><dd>Publish final details on the World IA Day website</dd></div><div class='di'><dt>November</dt><dd>Market the event to your community</dd></div><div class='di'><dt>December</dt><dd>Design the day-of experience for your event</dd></div><div class='di'><dt>January</dt><dd>Open registration and finalize day-of details</dd></div></dl></li><li><strong>Host the event!</strong> On February 20th, 2016, you’ll host your very own World IA Day - the format and content is up to you. The day can be filled with talks, roundtable chats, workshops, or something we haven’t even thought of yet. The only thing that we ask is that you keep your event accessible to all in your community and ours. The Information Architecture Institute global team will help promote your tweets, live streams, and video uploads as your event takes place.</li></ol><p>At each step, we will provide advice, templates, toolkits, and any other planning tools you request to make sure that you're well equipped to run your event.</p>"
+		"body": "<p>We believe local leadership and autonomy are key to successful, culturally relevant events.</p><p>Each year, organizers run theiferently, but generally we see successful event timelines run something like this...</p><ol><li><strong>Build a local team.</strong> You start building a team by connecting with leaders in your community who are interested in filling out the Call for Cities proposal with you. The Information Architecture Institute reviews all submissions and notifies the organizers whether or not they are accepted. Once accepted, you can grow your team and plan your event with the support of the Information Architecture Institute.</li><li><strong>Connect with global.</strong> The Information Architecture Institute global team will jump on a call with you to check in and make sure you have the support you need. We will let you know what other local leaders are doing across the globe and help you foresee any issues that can arise. We’ll also provide guidelines on when and how things could be done to help you if you’re new to event planning.</li><li>Plan event logistics. We recommend a planning schedule as follows:<dl class='inline'><div class='di'><dt>July</dt><dd>Recruit your volunteer team</dd></div><div class='di'><dt>August</dt><dd>Identify sponsors and speakers from your community</dd></div><div class='di'><dt>September</dt><dd>Determine venue & audio/visual needs</dd></div><div class='di'><dt>October</dt><dd>Publish final details on the World IA Day website</dd></div><div class='di'><dt>November</dt><dd>Market the event to your community</dd></div><div class='di'><dt>December</dt><dd>Design the day-of experience for your event</dd></div><div class='di'><dt>January</dt><dd>Open registration and finalize day-of details</dd></div></dl></li><li><strong>Host the event!</strong> On February 20th, 2016, you’ll host your very own World IA Day - the format and content is up to you. The day can be filled with talks, roundtable chats, workshops, or something we haven’t even thought of yet. The only thing that we ask is that you keep your event accessible to all in your community and ours. The Information Architecture Institute global team will help promote your tweets, live streams, and video uploads as your event takes place.</li></ol><p>At each step, we will provide advice, templates, toolkits, and any other planning tools you request to make sure that you're well equipped to run your event.</p>"
 	},
 	"article3": {
 		"id": "expectations",
@@ -21,50 +21,54 @@
 		"body": "<p><a href='http://iainstitute.org'><img alt='Information Architecture Institute' src='../../images/iai-logo.png'></a></p><p>World IA Day is completely volunteer-run, with operational support from the Information Architecture Institute.</p><p>If you have any questions or concerns and would like to get in contact with the World IA Day global team, please feel free to reach out to us at our official e-mail at <a href='mailto:info@worldiaday.org'>info@worldiaday.org</a>. You can also directly reach out to this year’s Global Executive Producer <a href='mailto:hello@davidpetersimon.com'>David Peter Simon</a> or Events Director <a href='mailto:ecstrato@gmail.com'>Erin Stratos</a>.</p>"
 	},
 	"photo-block-1": {
-		"image1": {
-			"alt": "World IA Day 2012 Molmo",
-			"src": "../../photos/WIAD12-Malmo-FredrikOhlin2.jpg",
-			"src-full": "../../photos/WIAD12-Malmo-FredrikOhlin2.full.jpg",
-			"creator": "Fredrik Ohlin",
-			"creator-link": "https://www.flickr.com/photos/fohlin/"
-		},
-		"image2": {
-			"alt": "World IA Day 2013 Tokyo",
-			"src": "../../photos/WIAD13-Tokyo-AtsushiHASEGAWA11.jpg",
-			"src-full": "../../photos/WIAD13-Tokyo-AtsushiHASEGAWA11.full.jpg",
-			"creator": "Atsushi HASEGAWA",
-			"creator-link": "https://www.flickr.com/photos/ahaseg/"
-		},
-		"image3": {
-			"alt": "World IA Day 2014 Washington D.C.",
-			"src": "../../photos/WIAD14-DC-WIADDC-2.jpg",
-			"src-full": "../../photos/WIAD14-DC-WIADDC-2.full.jpg",
-			"creator": "WIAD DC",
-			"creator-link": "https://www.flickr.com/photos/dwilliamhood/"
-		}
+		"images": [
+			{
+				"alt": "World IA Day 2012 Molmo",
+				"src": "../../photos/WIAD12-Malmo-FredrikOhlin2.jpg",
+				"src-full": "../../photos/WIAD12-Malmo-FredrikOhlin2.full.jpg",
+				"creator": "Fredrik Ohlin",
+				"creator-link": "https://www.flickr.com/photos/fohlin/"
+			},
+			{
+				"alt": "World IA Day 2013 Tokyo",
+				"src": "../../photos/WIAD13-Tokyo-AtsushiHASEGAWA11.jpg",
+				"src-full": "../../photos/WIAD13-Tokyo-AtsushiHASEGAWA11.full.jpg",
+				"creator": "Atsushi HASEGAWA",
+				"creator-link": "https://www.flickr.com/photos/ahaseg/"
+			},
+			{
+				"alt": "World IA Day 2014 Washington D.C.",
+				"src": "../../photos/WIAD14-DC-WIADDC-2.jpg",
+				"src-full": "../../photos/WIAD14-DC-WIADDC-2.full.jpg",
+				"creator": "WIAD DC",
+				"creator-link": "https://www.flickr.com/photos/dwilliamhood/"
+			}
+		]
 	},
 	"photo-block-2": {
-		"image1": {
-			"alt": "World IA Day 2015 Ann Arbor",
-			"src": "../../photos/WIAD15-AnnArbor-DWilliamHood5.jpg",
-			"src-full": "../../photos/WIAD15-AnnArbor-DWilliamHood5.full.jpg",
-			"creator": "D William Hood",
-			"creator-link": "https://www.flickr.com/photos/dwilliamhood/"
-		},
-		"image2": {
-			"alt": "World IA Day 2015 Ann Arbor",
-			"src": "../../photos/WIAD15-AnnArbor-DWilliamHood10.jpg",
-			"src-full": "../../photos/WIAD15-AnnArbor-DWilliamHood10.full.jpg",
-			"creator": "D William Hood",
-			"creator-link": "https://www.flickr.com/photos/dwilliamhood/"
-		},
-		"image3": {
-			"alt": "World IA Day 2013 Tokyo",
-			"src": "../../photos/WIAD13-Tokyo-AtsushiHASEGAWA13.jpg",
-			"src-full": "../../photos/WIAD13-Tokyo-AtsushiHASEGAWA13.full.jpg",
-			"creator": "Atsushi HASEGAWA",
-			"creator-link": "https://www.flickr.com/photos/ahaseg/"
-		}
+		"images": [
+			{
+				"alt": "World IA Day 2015 Ann Arbor",
+				"src": "../../photos/WIAD15-AnnArbor-DWilliamHood5.jpg",
+				"src-full": "../../photos/WIAD15-AnnArbor-DWilliamHood5.full.jpg",
+				"creator": "D William Hood",
+				"creator-link": "https://www.flickr.com/photos/dwilliamhood/"
+			},
+			{
+				"alt": "World IA Day 2015 Ann Arbor",
+				"src": "../../photos/WIAD15-AnnArbor-DWilliamHood10.jpg",
+				"src-full": "../../photos/WIAD15-AnnArbor-DWilliamHood10.full.jpg",
+				"creator": "D William Hood",
+				"creator-link": "https://www.flickr.com/photos/dwilliamhood/"
+			},
+			{
+				"alt": "World IA Day 2013 Tokyo",
+				"src": "../../photos/WIAD13-Tokyo-AtsushiHASEGAWA13.jpg",
+				"src-full": "../../photos/WIAD13-Tokyo-AtsushiHASEGAWA13.full.jpg",
+				"creator": "Atsushi HASEGAWA",
+				"creator-link": "https://www.flickr.com/photos/ahaseg/"
+			}
+		]
 	},
 	"blockquote": {
 		"quotation": "The [organizing] experience couldn't have been better. I was very concerned that I wouldn't be doing something correctly, but the amount of support from the IA Institute was unbelievable. Any questions or concerns I had were immediately answered, and any help I needed was given quickly. The day went unbelievably well, and we are happy to be answering the Call for Cities again in 2016 in the hopes of hosting World IA Day again!",

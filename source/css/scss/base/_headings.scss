@@ -10,3 +10,9 @@ h1 {
 		@include rem-font-size($primary-heading-size);
     }
 }
+
+h3 {
+    @include rem-margin(1, 0, .5, 0);
+    color: $heading-color;
+    @include rem-font-size($tertiary-heading-size);
+}

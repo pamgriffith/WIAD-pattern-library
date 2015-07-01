@@ -1,0 +1,92 @@
+{
+	"title" : "World IA Day 2016 Call for Cities",
+	"article1": {
+		"id": "cities",
+		"title": "Applicant cities",
+		"body": "<p class='lede'>86 people applied on behalf of 72 cities from 38 countries. Check out all cities below.</p><h3>Africa</h3><ul class='long'><li>Addis Abeba, Ethiopia</li><li>Johannesburg, South Africa</li><li>Kampala, Uganda</li><li>Kigali, Rwanda</li><li>Nairobi, Kenya</li></ul><h3>Asia</h3><ul class='long'><li>Bangalore, India</li><li>Depok, Indonesia</li><li>Hyperabad, India</li><li>Metro Manila, Philippines</li><li>Shenzhen, China</li><li>Singapore</li><li>Wellington, New Zealand</li><li>Tokyo, Japan</li></ul><h3>Europe</h3><ul class='long'><li>Barcelona, Spain</li><li>Bari, Italy</li><li>Bristol, United Kingdom</li><li>Brno, Czech Republic</li><li>Canterbury, Kent, United Kingdom</li><li>Copenhagen, Denmark</li><li>Ghent, Belgium</li><li>Jönköping, Sweden</li><li>Kyiv, Ukraine</li><li>Ljubljana, Slovenia</li><li>London, United Kingdom</li><li>Lyon, France</li><li>Palermo, Italy</li><li>Pescara, Italy</li><li>Prague, Czech Republic</li><li>Rome, Italy</li><li>Saint Petersburg, Russia</li><li>Stockholm, Sweden</li><li>Zürich, Switzerland</li></ul><h3>Latin America</h3><ul class='long'><li>Lima, Peru</li><li>Mendoza, Argentina</li><li>Mexico City, Mexico</li><li>Rio de Janeiro, Brazil</li><li>São Paulo, Brazil</li><li>San José, Costa Rica</li></ul><h3>Middle East</h3><ul class='long'><li>Beirut, Lebanon</li><li>Dubai, United Arab Emirates</li><li>Istanbul, Turkey</li><li>Tehran, Iran</li></ul><h3>US & Canada</h3><ul class='long'><li>Ann Arbor, Michigan, USA</li><li>Austin, Texas, USA</li><li>Boston, Massachusetts, USA</li><li>Chattanooga, Tennessee, USA</li><li>Cedar Rapids, Iowa, USA</li><li>Chicago, Illinois, USA</li><li>Dallas, Texas, USA</li><li>Denver, Colorado, USA</li><li>Des Moines, Iowa, USA</li><li>Kent, Ohio, USA</li><li>Lansing, Michigan, USA</li><li>Houston, Texas, USA</li><li>Los Angeles, California, USA</li><li>Miami, Florida, USA</li><li>Milwaukee, Wisconsin, USA</li><li>New York, New York, USA</li><li>Ottawa, Canada</li><li>Pittsburgh, Pennsylvania, USA</li><li>Philadelphia, Pennsylvania, USA</li><li>Phoenix, Arizona, USA</li><li>Portland, Oregon, USA</li><li>Richmond, Virginia, USA</li><li>Seattle, Washington, USA</li><li>San Antonio, Texas, USA</li><li>San Francisco, California, USA</li><li>Tampa, Florida, USA</li><li>Toronto, Canada</li><li>Washington, DC, USA</li></ul>"
+	},
+	"article2": {
+		"id": "about-2016",
+		"title": "About 2016",
+		"body": "<p>This year, we're turning five. We're growing up!</p><p>And with growth, means change. Here are two things we're doing differently this year...</p><ul> <li><strong>We've added \"Regional Directors\" to our team.</strong> Areas with dense amounts of cities have been allocated a \"Regional Director\", in order to better align cultural interests and coordinate meetings within timezones. </li><li><strong>We're maintaining last year's style.</strong> We're spending some time reflecting on our brand this year. That means we're not changing colors nor redesigning the logo. For last year's organizers who appreciate environmental sustainability, we even recommend putting to use last year's excess printed materials.</li></ul>"
+	},
+	"article3": {
+		"id": "next-steps",
+		"title": "About our next steps",
+		"body": "<p>There are nine months until World IA Day. Each month there will be mini-milestones for the organizers.</p><p>Here's an insight into some of our key next steps:</p><ol><li><strong>We'll select official cities.</strong> We're evaluating organizer applications and identifying next year's events. We'll announce the \"official\" cities soon!</li><li><strong>We'll select a theme.</strong> We are crafting ideas and will open voting in July, announcing the theme in August.</li><li><strong>We'll build our website.</strong> We're in the midst of getting a brand new World IA Day website, where people can learn more about the history of the event and where we're celebrating this year.</li></ol>"
+	},
+	"article4": {
+		"id": "team",
+		"title": "About the World IA Day Global Team",
+		"body1": "<p>World IA Day is jointly produced by a network of global and regional volunteers, with support from members of the IAI Board. We're all here to help local leaders in their World IA Day organizing journey. </p><p>Feel free to reach out to us on our <a href='mailto:info@worldiaday.org'>official e-mail</a> or to members directly via Twitter.</p>",
+		"body2": "<p class='cta'><a href='http://iainstitute.org'><img src='../../images/iai-logo.png' alt='Information Architecture Institute'></a></p>",
+		"people": [
+			{
+				"name": "Abby Covert",
+				"image": "../../team/abbycovert.jpg",
+				"contact": "https://twitter.com/Abby_the_IA",
+				"role": "Adviser and Co-Founder"
+			},
+			{
+				"name": "Cassandra Moore",
+				"image": "../../team/cassandramoore.png",
+				"contact": "https://twitter.com/seymour188",
+				"role": "Project Director "
+			},
+			{
+				"name": "Carolina Leslie",
+				"image": "../../team/carolinaleslie.jpg",
+				"contact": "https://twitter.com/@lulileslie",
+				"role": "Regional Director"
+			},
+			{
+				"name": "Chris Bovard",
+				"image": "../../team/chrisbovard.jpg",
+				"contact": "https://twitter.com/bovardc",
+				"role": "AV Director"
+			},
+			{
+				"name": "Clementina Gentile",
+				"image": "../../team/clementinagentile.jpg",
+				"contact": "https://twitter.com/clementina_g",
+				"role": "Regional Director"
+			},
+			{
+				"name": "Dan Klyn",
+				"image": "../../team/danklyn.png",
+				"contact": "https://twitter.com/danklyn",
+				"role": "Adviser and Co-Founder"
+			},
+			{
+				"name": "David Peter Simon",
+				"image": "../../team/davidpetersimon.jpg",
+				"contact": "https://twitter.com/davidpetersimon",
+				"role": "Global Executive Producer"
+			},
+			{
+				"name": "Erin Stratos",
+				"image": "../../team/erinstratos.jpg",
+				"contact": "https://twitter.com/ecstrato",
+				"role": "Events Director"
+			},
+			{
+				"name": "Kamaria Campbell",
+				"image": "../../team/kamariacampbell.jpg",
+				"contact": "https://twitter.com/kaccampbell",
+				"role": "Regional Director "
+			},
+			{
+				"name": "Judy Siegel",
+				"image": "../../team/judysiegel.png",
+				"contact": "https://twitter.com/gqjudy",
+				"role": "Sponsorship Director"
+			},
+			{
+				"name": "Samantha Raddatz",
+				"image": "../../team/samantharaddatz.jpg",
+				"contact": "https://twitter.com/samradd",
+				"role": "Regional Director"
+			}
+		]
+	}
+}
